@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<meta charset="utf-8">
+		<title>Order</title>
+		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+		<link rel="shortcut icon" href="images/favicon.jpg" type="image/favicon">
+        <link rel="icon" href="images/favicon.jpg" type="image/favicon">
+	</head>
+  <body>
+	<header>
+		<h1>Our Menu</h1>
+        <p>Feast your eyes and your stomach on our tasty range</p>
+		<img src="images/logo.jpg" alt="Burkes Takeaway Logo">
+	</header>
+    <nav>
+        <div class="nav-links">
+			<a href="index.html">Home</a>
+			<a href="indexmenu.html">Menu</a>
+            <a href="indexorder.html">Order Here</a>
+			<a href="indexcontact.html">Contact Us</a>
+		  </div>
+    </nav>
+	<h1>Pizza Order Form</h1>
+	<form id="order-form">
+		<h2>Select your pizza:</h2>
+		<label>
+			<input type="checkbox" name="pizza" value="margherita">
+				Margherita pizza - €7.99
+		</label>
+		<label>
+			<input type="checkbox" name="pizza" value="pepperoni">
+				Pepperoni pizza - €9.99
+		</label>
+		<label>
+			<input type="checkbox" name="pizza" value="hawaiian">
+				Hawaiian pizza - €10.99
+		</label>
+		<label>
+			<input type="checkbox" name="pizza" value="vegetarian">
+				Vegetarian pizza - €8.99
+		</label>
+		<label>
+			<input type="checkbox" name="pizza" value="meat lovers">
+				Meat Lovers pizza - €7.99
+		</label>
+
+		<h2>Select your pizza size:</h2>
+		<label>
+			<input type="checkbox" name="size" value="small">
+			Small - €10.00
+		</label>
+		<label>
+			<input type="checkbox" name="size" value="medium">
+			Medium - €12.50
+		</label>
+		<label>
+			<input type="checkbox" name="size" value="large">
+			Large - €15.00
+		</label>
+
+		<h2>Select your side dish:</h2>
+		<label>
+			<input type="checkbox" name="side dish" value="breadsticks">
+				Breadsticks - €3.00
+		</label>
+		<label>
+			<input type="checkbox" name="side dish" value="wings">
+				Wings - €4.00
+		</label>
+		<label>
+			<input type="checkbox" name="side dish" value="chips">
+				Chips - €2.50
+		</label>
+		<label>
+			<input type="checkbox" name="side dish" value="onion rings">
+				Onion rings - €2.00
+		</label>
+
+		<h2>Select your drink:</h2>
+		<label>
+			<input type="checkbox" name="drink" value="coke">
+				Coke(bottle) - €2.00
+		</label>
+		<label>
+			<input type="checkbox" name="drink" value="coke">
+				Coke(can) - €1.50
+		</label>
+		<label>
+			<input type="checkbox" name="drink" value="club orange">
+				Club orange(bottle) - €2.10
+		</label>
+		<label>
+			<input type="checkbox" name="drink" value="club orange">
+				Club orange(can) - €1.60
+		</label>
+		<label>
+			<input type="checkbox" name="drink" value="7up">
+				7Up(bottle) - €1.90
+		</label>
+		<label>
+			<input type="checkbox" name="drink" value="7up">
+				7Up(can) - €1.30
+		</label>
+		
+		<h2>Enter your contact information:</h2>
+		<label>
+			Name:
+			<input type="text" name="name" required>
+		</label>
+		<label>
+			Email:
+			<input type="email" name="email" required>
+		</label>
+		<label>
+			Phone:
+			<input type="tel" name="phone" required>
+		</label>
+		
+		<input type="submit" value="Place Order">
+	</form>
+	<footer>
+		<p>&copy; Burkes Takeaway 2012</p>
+		<address>Main street, Castlebar, Co.Mayo</address>
+	</footer>
+</body>
+</html>
